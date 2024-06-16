@@ -4,9 +4,11 @@
   putty_paste_style_source_clipboard = True
 [keybindings]
   new_tab = <Shift><Alt>t
-  split_horiz = <Primary>h
-  split_vert = <Primary>v
+  split_horiz = <Alt>h
+  split_vert = <Alt>v
   close_term = <Primary>w
+  copy = <Primary>c
+  paste = <Primary>v
   new_window = <Primary><Alt>t
   edit_tab_title = <Primary>r
   edit_terminal_title = <Primary><Alt>r
