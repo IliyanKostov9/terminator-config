@@ -4,14 +4,25 @@
   putty_paste_style_source_clipboard = True
 [keybindings]
   new_tab = <Shift><Alt>t
-  split_horiz = <Alt>h
-  split_vert = <Alt>v
-  close_term = <Primary>w
+  go_next = <Shift><Alt>Page_Up
+  go_prev = <Shift><Alt>Page_Down
+  go_up = <Shift><Alt>k
+  go_down = <Shift><Alt>j
+  go_left = <Shift><Alt>h
+  go_right = <Shift><Alt>l
+  split_horiz = <Shift><Alt>s
+  split_vert = <Shift><Alt>v
+  close_term = <Shift><Alt>w
   copy = <Primary>c
-  paste = <Primary>v
+  paste = <Primary><Shift>v
+  toggle_scrollbar = ""
+  close_window = <Shift><Alt>q
+  toggle_zoom = ""
   new_window = <Primary><Alt>t
-  edit_tab_title = <Primary>r
+  edit_window_title = <Primary><Alt>bracketleft
+  edit_tab_title = <Shift><Alt>r
   edit_terminal_title = <Primary><Alt>r
+  help = ""
 [profiles]
   [[default]]
     background_color = "#282828"
@@ -24,7 +35,6 @@
     foreground_color = "#ebdbb2"
     show_titlebar = False
     palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
-    use_system_font = False
     copy_on_selection = True
 [layouts]
   [[default]]
