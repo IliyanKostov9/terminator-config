@@ -14,14 +14,20 @@
   split_vert = <Shift><Alt>v
   close_term = <Shift><Alt>w
   copy = <Primary>c
-  paste = <Primary><Shift>v
+  paste = <Primary>v
   toggle_scrollbar = ""
   close_window = <Shift><Alt>q
+  resize_up = <Primary><Shift>k
+  resize_down = <Primary><Shift>j
+  resize_left = <Primary><Shift>l
+  resize_right = <Primary><Shift>h
   toggle_zoom = ""
+  hide_window = ""
   new_window = <Primary><Alt>t
   edit_window_title = <Primary><Alt>bracketleft
-  edit_tab_title = <Shift><Alt>r
-  edit_terminal_title = <Primary><Alt>r
+  edit_tab_title = ""
+  edit_terminal_title = ""
+  preferences_keybindings = ""
   help = ""
 [profiles]
   [[default]]
